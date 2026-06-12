@@ -1,0 +1,127 @@
+{
+  "snapshot_date": "2026-06-13",
+  "snapshot_code": "XIAOJIAO_ASSET_INVENTORY_CURRENT_SNAPSHOT",
+  "purpose": "asset inventory + architecture placement",
+  "not_a_rejection_audit": true,
+  "not_a_final_product_seal": true,
+  "classification_labels": [
+    "USE_NOW",
+    "USE_LATER",
+    "REFERENCE_ONLY",
+    "DO_NOT_USE_AS_DEFAULT"
+  ],
+  "core_judgment": "Xiaojiao is not one page. Xiaojiao is a state-driven intelligence foundation plus a progressive work surface system.",
+  "use_now": {
+    "1001_state_driven_intelligence_foundation": [
+      "Work State schema",
+      "Composer renderDirective",
+      "Suggestion schema",
+      "Intent schema",
+      "Clarification Card schema",
+      "Context Pack schema",
+      "Preference Candidate policy",
+      "Observation Metrics"
+    ],
+    "1000F_I_model_candidate_safety_chain": [
+      "Resource Context Registry",
+      "Context Pack Policy",
+      "Model Candidate Envelope",
+      "Expected Output Schema",
+      "Work Object Patch",
+      "Teacher Review Gate"
+    ],
+    "1002A_B_progressive_work_surface_foundation": [
+      "surface_mode",
+      "business_pack_layout_preset",
+      "resource_library as support_layer",
+      "resource_drawer",
+      "resource_picker",
+      "grid_studio only for complex tasks",
+      "teacher_control_surface as future classroom line",
+      "public_display_surface as future classroom line"
+    ]
+  },
+  "use_later": [
+    "classroom_teaching_studio_pack",
+    "student_evaluation_pack",
+    "resource_curation_pack",
+    "public_lesson_pack",
+    "classroom_runtime_pack"
+  ],
+  "reference_only": {
+    "early_single_page_workbench_prototypes": [
+      "top status bar",
+      "attached Xiaojiao notes",
+      "suggestion / work record drawer",
+      "on-demand input",
+      "soft light visual tone"
+    ],
+    "dark_cockpit_version": [
+      "demo style",
+      "admin view",
+      "night mode",
+      "future data cockpit"
+    ],
+    "1002C_H_big_package_pending_review": {
+      "1002C": "structural reference",
+      "1002D": "likely reusable schema",
+      "1002E": "likely enters 1003",
+      "1002F": "1003 reference",
+      "1002G": "1004 reference",
+      "1002H": "inventory basis, not final route by itself"
+    }
+  },
+  "do_not_use_as_default": [
+    "fixed three-column UI",
+    "fixed left context list",
+    "always-on right AI panel",
+    "bottom-right forced AI float button",
+    "all businesses enter grid_studio",
+    "teaching_plan_pack as studio",
+    "resource_library_pack as studio",
+    "directly embedded GitHub workbench",
+    "real provider call",
+    "real resource library integration",
+    "real frontend runtime modification"
+  ],
+  "business_pack_placement": {
+    "teaching_plan_pack": {
+      "placement": "guided_flow",
+      "studio": false
+    },
+    "lesson_design_pack": {
+      "placement": "focus_surface, optional grid_studio",
+      "studio": "optional"
+    },
+    "classroom_teaching_studio_pack": {
+      "placement": "grid_studio + teacher_control_surface + public_display_surface",
+      "studio": true
+    },
+    "student_evaluation_pack": {
+      "placement": "analysis_board",
+      "studio": "board_type"
+    },
+    "resource_library_pack": {
+      "placement": "support_layer + drawer + picker",
+      "studio": false
+    },
+    "resource_curation_pack": {
+      "placement": "grid_studio",
+      "studio": true
+    },
+    "public_lesson_pack": {
+      "placement": "future grid_studio candidate",
+      "studio": "later"
+    },
+    "classroom_runtime_pack": {
+      "placement": "future runtime line",
+      "studio": "later"
+    }
+  },
+  "next_handling_rule": [
+    "foundation assets stay",
+    "UI shape gets reclassified",
+    "business packs route by complexity",
+    "complex classroom and analysis tasks open dedicated later lines"
+  ]
+}
